@@ -15,8 +15,10 @@ struct Travel_Planner_2App: App {
     
     var body: some Scene {
         WindowGroup {
-            RootView(selectedCountries: selectedCountries)
-                .environmentObject(appFlowCoordinator)
+//            RootView(selectedCountries: selectedCountries)
+//                .environmentObject(appFlowCoordinator)
+            
+            CountrySelectionView()
         }
     }
 }
